@@ -1,0 +1,115 @@
+
+.codehim-form{
+    top: 10px;
+    position: relative;
+    max-width: 500px;
+    min-height: 400px;
+    box-sizing: border-box;
+    background: transparent;
+    box-shadow: 4px 2px 16px black;
+    border-radius: 8px;
+    margin:  200px auto;
+    padding: 25px;
+    color: #414141;    
+  }
+  .cm-input{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%; 
+    margin: 25px auto;
+    border-radius: 20px;
+    border: 2px solid black; 
+  }
+  .cm-input:focus{
+    outline: 0;
+    border-color: green;  
+  }
+  .cm-input:invalid{
+    border-color: red; 
+  }
+  #length{
+    box-sizing: 10px;
+  }
+  /* Login Button Design */
+  .btn-login{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .btn-login:focus{
+    outline: 0;
+  }
+  .btn-login:hover{
+    opacity: 0.8;
+    transition: .3s;
+  }
+  /* Gradient Background */
+  .gr-bg{
+    background:black;
+background:rgba(250, 250, 250, 0.6);
+    text-transform: uppercase;
+  }
+  /* For, title */
+  .form-title{
+    padding: 15px;
+    text-align: center;
+    position:inherit;
+  }
+  .form-title h1{
+    font-display:initial;
+    color: rgb(7, 7, 82);
+  }
+  .form-title .user-icon{
+    position: absolute;
+    font-size: 42px;
+    color: white;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    border-radius: 50px;
+    top: -60px;
+    left: -45px;
+  }
+  body{
+    background: url(./IMAGES/Food.jpg) no-repeat;
+    background-size: 100%;
+  }
+  
+  #message {
+    display: none;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 4px 2px 16px black;
+    position: relative;
+    padding: 20px;
+    left: 1008PX;
+    margin:  20px auto;
+    margin-top: -135px;
+    margin-left: 5px;
+    box-shadow: 0 5px 15px rgb(0,0,0,0.5);
+  }
+  #message p {
+    text-align: center;
+    padding: 10px 25px;
+  }
+  .valid {
+    color: green;
+  }
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  .invalid {
+    color: red;
+  }
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
